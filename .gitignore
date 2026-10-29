@@ -1,0 +1,27 @@
+# ---- restricted / derived data: NEVER commit ----
+data/
+dta/
+output/
+tables/
+figures/
+log/
+*.dta
+*.csv
+*.xls
+*.xlsx
+*.rds
+*.shp
+# ---- manuscript and internal material (kept out of the code repo) ----
+*.pdf
+*.zip
+*.bak*
+*conflicted copy*
+CLAUDE.md
+# ---- R / Stata / OS ----
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+*.log
+*.smcl
+__pycache__/
